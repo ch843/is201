@@ -1,5 +1,5 @@
 body {
-    background-image: linear-gradient(lightblue, white);
+    background-image: linear-gradient(white, lightblue, rgb(5, 147, 228));
 }
 
 nav {
@@ -54,65 +54,21 @@ nav {
     overflow: auto;
 }
 
-.content li a {
+.content li a{
     display: block;
     color: black;
     padding: 8px 16px;
     text-decoration: none;
 }
 
-.content li a.active {
-    background-color: #5319da;
-    color: white;
-}
-
-.content li a:hover:not(.active) {
-    background-color: #555;
-    color: white;
-}
-
-.list-content {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-.list-title {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    border-style: solid;
-    border-color:lightblue;
-    border-radius: 5px;
-    width: fit-content;
-    margin:auto;
-    padding:10px;
-    margin-top: 15px;
-}
-
-.article {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    border-style: solid;
-    border-color:lightblue;
-    border-radius: 5px;
-    width: fit-content;
-    margin:auto;
-    padding:10px;
-    margin-top: 15px;
-}
-
-.video {
+.video, .tableau-live, .list-content {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.video-title {
+.list-title, .video-title, .tableau-title, .article {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -125,31 +81,10 @@ nav {
     padding:10px;
     margin-top: 15px;
     margin-bottom: 15px;
-}
-
-.tableau-title {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    border-style: solid;
-    border-color:lightblue;
-    border-radius: 5px;
-    width: fit-content;
-    margin: auto;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    padding:10px;
 }
 
 footer {
     text-align: center;
     margin-top: 15px;
     margin-bottom: 15px;
-}
-
-.tableau-live {
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
